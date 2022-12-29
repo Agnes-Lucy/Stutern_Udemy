@@ -24,6 +24,14 @@ body{
     gap: 10px;
     background-color: rgb(224, 224, 245);
 }
+#searchinput{
+    background-color: rgb(224, 224, 245);
+    width: 98%;
+    border: none;
+}
+#searchinput:focus{
+    outline: none;
+}
 button.login,
 button.web{
     background-color: white;
